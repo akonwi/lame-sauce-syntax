@@ -1,11 +1,10 @@
-@import "ui-variables";
 @import "colors";
 
 // General colors
-@syntax-text-color: @text-color;
+@syntax-text-color: hsl(0,0%,66%);
 @syntax-cursor-color: @white;
 @syntax-selection-color: @light-black;
-@syntax-background-color: @base-background-color;
+@syntax-background-color: @stone;
 
 // Guide colors
 @syntax-wrap-guide-color: @grey;
@@ -17,9 +16,9 @@
 @syntax-result-marker-color-selected: pink;
 
 // Gutter colors
-@syntax-gutter-text-color: @text-color;
+@syntax-gutter-text-color: @syntax-text-color;
 @syntax-gutter-text-color-selected: @white;
-@syntax-gutter-background-color: @base-background-color;
+@syntax-gutter-background-color: @stone;
 @syntax-gutter-background-color-selected: @light-black;
 
 // For git diff info. i.e. in the gutter
